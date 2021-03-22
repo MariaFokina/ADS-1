@@ -1,6 +1,6 @@
 // Copyright 2021 NNTU-CS
-
 int cbinsearch(int *arr, int size, int value) {
+   
    int left = 0, right = size - 1, count = 0; //границы массива
    while (left < right) {
       int middle = (left + right) / 2;
